@@ -1,0 +1,12 @@
+:root {
+    --bs-primary-bg-subtle: #272242 !important;
+    --bs-primary-bg:#047878 !important;
+    
+  }
+  
+  :root{
+    --bs-secondary-bg-subtle: #0d6aa0 !important;
+  }
+  .bg-gradient {
+    background-image: var(--bs-gradient);
+}

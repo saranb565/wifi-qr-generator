@@ -1,27 +1,22 @@
-# Step 1: Build the React app
-FROM node:18 AS build
+FROM node:20
 
-# Set the working directory
 WORKDIR /app
 
 # Install dependencies
 COPY package.json package-lock.json ./
 RUN npm install
 
-# Copy the app source code
+# Copy the rest of the application
 COPY . .
 
-# Build the app for production
+# Build the React app
 RUN npm run build
 
-# Step 2: Serve the app with a lightweight web server (nginx)
-FROM nginx:alpine
+# Install and use a static server
+RUN npm install -g serve
 
-# Copy the build output to the Nginx server
-COPY --from=build /app/dist /usr/share/nginx/html
+# Expose the port
+EXPOSE 5173
 
-# Expose port 80
-EXPOSE 80
-
-# Start nginx when the container runs
-CMD ["nginx", "-g", "daemon off;"]
+# Serve the app using serve and enable fallback to index.html
+CMD ["serve", "-s", "build", "-l", "5173", "--single"]

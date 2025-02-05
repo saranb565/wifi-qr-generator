@@ -1,4 +1,3 @@
-# wifi-qr-generator
 
 <h1 align="center" id="title">Wifi QR Generator</h1>
 
@@ -8,9 +7,7 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="" alt="project-screenshot" width="400" height="400/">
 
-<img src="" alt="project-screenshot" width="400" height="400/">
 
 <h2>🛠️ Installation Steps:</h2>
 

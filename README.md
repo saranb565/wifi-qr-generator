@@ -17,19 +17,25 @@
 git clone https://github.com/saranb565/wifi-qr-generator.git
 ```
 
-<p>2. Setup using Docker</p>
+<p>2. Navigate to the root folder </p>
+
+```
+cd wifi-qr-generator
+```
+
+<p>3. Setup using Docker</p>
 
 ```
 docker build -t wifi-qr-gen .
 ```
 
-<p>3. Run using docker run</p>
+<p>4. Run using docker run</p>
 
 ```
 docker run -p 5173:5173 -v ${PWD}:/app wifi-qr-gen sh -c "npm install && npm run dev"
 ```
 
-<p>4. Alternatively run via docker compose</p>
+<p>5. Alternatively run via docker compose</p>
 
 ```
 docker-compose up

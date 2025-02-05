@@ -9,6 +9,10 @@
 
 <img src="https://drive.google.com/uc?export=view&id=1B1_NjGQvpUJDC4qWZ_j60Bm1Wyf7MjA1" alt="Google Drive Image">
 
+<img src="https://drive.google.com/uc?export=view&id=1YUWlBKEbU5mt9xYlPDCEvLwWPnBjND5h" alt="Google Drive Image">
+
+<img src="https://drive.google.com/uc?export=view&id=1CHIiUuBzggzkoM_x-UGt4rOMyFC53MHV" alt="Google Drive Image">
+
 <h2>🛠️ Installation Steps:</h2>
 
 <p>1. Clone the project via git clone</p>

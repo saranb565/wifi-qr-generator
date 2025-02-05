@@ -13,6 +13,10 @@
 
 <img src="https://drive.google.com/uc?export=view&id=1CHIiUuBzggzkoM_x-UGt4rOMyFC53MHV" alt="Google Drive Image">
 
+<h2> How it works </h2>
+<p> The application renders the home page that contains the wifiQR and UrlQR functionalities. </p>
+<p> To generate and download QR for websites, Urls, Links for forms etc. go to the UrlQR section. Enter the url to generate QR dynamically as you type and also download it for future use. </p>
+<p> To generate QR to connect to wifi, go to the WiFiQR section on the homepage, and enter the WiFi name(SSID) and Password in the input fields. If needed change the encryption type depending on the network you like to share(mostly it is WPA2 encryption). Generate QR and download it to share to clients who need to connect to your network. They can connect to your Wifi by just scanning the QR you shared to them. </p>
 <h2>🛠️ Installation Steps:</h2>
 
 <p>1. Clone the project via git clone</p>

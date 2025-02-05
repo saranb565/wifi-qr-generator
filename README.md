@@ -7,7 +7,7 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="https://drive.google.com/file/d/1B1_NjGQvpUJDC4qWZ_j60Bm1Wyf7MjA1/view?usp=drivesdk" ></ img>
+<img src="https://drive.google.com/uc?export=view&id=1B1_NjGQvpUJDC4qWZ_j60Bm1Wyf7MjA1" alt="Google Drive Image">
 
 <h2>🛠️ Installation Steps:</h2>
 
